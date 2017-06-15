@@ -1,0 +1,22 @@
+
+  <div class="row">
+      <div class="col-md-4 col-md-offset-4" style="padding-bottom: 1%">
+       <h1>Ваш выбор:</h1>
+      </div>
+  </div>
+  <div class="row">
+
+    <div class="col-md-offset-2 col-md-9">
+      <div class="row">
+      <div class="col-md-3">
+    <%= link_to image_tag("paper.png"), complete_path(game: 2), method: :put %>
+      </div>
+      <div class="col-md-3">
+        <%= link_to image_tag("scissors.png"), complete_path(game: 1), method: :put %>
+    </div>
+      <div class="col-md-3">
+      <%= link_to image_tag("stone.png"), complete_path(game: 0), method: :put %>
+    </div>
+      </div>
+    </div>
+    </div>
